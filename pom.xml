@@ -15,8 +15,8 @@
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
-<!--        <mysql.version>5.1.46</mysql.version>-->
-<!--        <flyway.version>5.0.7</flyway.version>-->
+        <!--        <mysql.version>5.1.46</mysql.version>-->
+        <!--        <flyway.version>5.0.7</flyway.version>-->
     </properties>
     <dependencies>
         <dependency>
@@ -58,19 +58,19 @@
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
         </dependency>
-<!--        mysql begin-->
+        <!--        mysql begin-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
-<!--        mysql end-->
-<!--        flyway begin-->
+        <!--        mysql end-->
+        <!--        flyway begin-->
         <dependency>
             <groupId>org.flywaydb</groupId>
             <artifactId>flyway-core</artifactId>
         </dependency>
-<!--        flyway end-->
-<!--        jwt begin-->
+        <!--        flyway end-->
+        <!--        jwt begin-->
         <dependency>
             <groupId>com.auth0</groupId>
             <artifactId>java-jwt</artifactId>
@@ -98,7 +98,7 @@
             <artifactId>jose4j</artifactId>
             <version>0.6.3</version>
         </dependency>
-<!--        jwt end-->
+        <!--        jwt end-->
         <dependency>
             <groupId>org.bouncycastle</groupId>
             <artifactId>bcprov-jdk15on</artifactId>
@@ -121,6 +121,11 @@
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>2.8.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.10</version>
         </dependency>
     </dependencies>
 
